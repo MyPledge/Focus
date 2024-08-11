@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35201.85
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{41CD729C-CFCF-4120-B907-67895F2E4A2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D42EE34D-FA36-4CEB-820D-B0D3CB32817E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Focus", "src\Focus\Focus.csproj", "{571F960E-5144-4A79-A0A7-FA3C9FC0D939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Focus.Core", "src\Focus.Core\Focus.Core.csproj", "{2750311B-C325-499B-AAB4-245F3E8A12E0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{571F960E-5144-4A79-A0A7-FA3C9FC0D939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571F960E-5144-4A79-A0A7-FA3C9FC0D939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571F960E-5144-4A79-A0A7-FA3C9FC0D939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571F960E-5144-4A79-A0A7-FA3C9FC0D939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2750311B-C325-499B-AAB4-245F3E8A12E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2750311B-C325-499B-AAB4-245F3E8A12E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2750311B-C325-499B-AAB4-245F3E8A12E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2750311B-C325-499B-AAB4-245F3E8A12E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{571F960E-5144-4A79-A0A7-FA3C9FC0D939} = {41CD729C-CFCF-4120-B907-67895F2E4A2C}
+		{2750311B-C325-499B-AAB4-245F3E8A12E0} = {41CD729C-CFCF-4120-B907-67895F2E4A2C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4B39312-8EC7-4034-9D07-1898DC400952}
